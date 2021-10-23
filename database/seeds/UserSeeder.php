@@ -14,21 +14,21 @@ class UserSeeder extends Seeder
         $user_list = [
             [
                 'id' => 1,
-                'lname' => 'Peligro',
-                'fname' => 'Vincent',
+                'lname' => 'Lupian',
+                'fname' => 'Joy',
                 'address' => 'Bohol',
                 'phone' => '09245125',
-                'email' => 'Vincent@email.com',
-                'password' => bcrypt('Vincent')
+                'email' => 'Joy@email.com',
+                'password' => bcrypt('Joy')
             ],
             [
                 'id' => 2,
                 'lname' => 'Tiktokerist',
-                'fname' => 'Vincent',
+                'fname' => 'Joy',
                 'address' => 'Cadana',
                 'phone' => '02144124',
-                'email' => 'Vincent@email.com',
-                'password' => bcrypt('Vincent')
+                'email' => 'Joy@email.com',
+                'password' => bcrypt('Joy')
             ],
             [
                 'id' => 3,
@@ -36,8 +36,8 @@ class UserSeeder extends Seeder
                 'fname' => 'Mitty',
                 'address' => 'USA',
                 'phone' => '12515',
-                'email' => 'Vincent@email.com',
-                'password' => bcrypt('Vincent')
+                'email' => 'Joy@email.com',
+                'password' => bcrypt('Joy')
             ],
         ];
         foreach ($user_list as $user) {
